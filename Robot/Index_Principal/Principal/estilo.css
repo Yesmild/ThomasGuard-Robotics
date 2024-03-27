@@ -1,0 +1,136 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    scroll-margin: none;
+
+}
+
+body {
+    background-color: white;
+
+    
+}
+
+ 
+button {
+    border: 1px solid white;
+    padding: 10px;
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-position: right bottom;
+    transition: background-position 1s ease;
+    background-size: 200% 100%;
+    font-weight: bold;
+    background-image: linear-gradient(to left, #657CC4 50%, #00719c 50%);
+    background-color: white;
+    
+    
+}
+
+
+
+
+
+button:hover {
+    transition:  1s;
+    background-image: none;
+    background-image: linear-gradient(to left, #657CC4 50%, #00719c 50%);
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    background-position: left bottom;
+    cursor: pointer;
+    border: solid 1px black;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+   padding: 30px; 
+}
+
+.ojos {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 100px;
+}
+
+.ojo-i {
+    border: 1px solid white;
+    padding: 10px;
+    width: 15px;
+    height: 100px;
+    margin-left: 240px;
+    margin-top: 70px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.ojo-d {
+    border: 1px solid white;
+    padding: 10px;
+    width: 15px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 70px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.boca {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 4px solid #000;
+    border-radius: 100px;
+    height: 20px;
+    width: 45px;
+    margin: 0 auto;
+    border: solid 1px white;
+    margin-left: 330PX;
+    transform-origin: bottom center; /* Establece el origen de la transformación en la base de la boca */
+    animation: hablar 2s infinite alternate; /* Aplica la animación */
+}
+
+@keyframes hablar {
+    0%, 100% {
+        transform: scaleY(1); /* Boca cerrada */
+    }
+    50% {
+        transform: scaleY(0.2); /* Boca abierta */
+    }
+}
+
+.borde {
+    border: solid 1px white;
+    padding-bottom: 100px;
+    width: 700px;
+    margin-left: 350px;
+    border-radius: 900px;
+    margin-top: 300px;
+    background-color: black;
+}
+
+
+.entrar {
+    width: 100vw;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: desaparecer 2s infinite;
+}
+
+@keyframes  desaparecer {
+    0%, 50% {
+visibility: hidden; transition: 2s;
+ }
+100% {  visibility: visible; transition: 2s;}
+
+
+
+}

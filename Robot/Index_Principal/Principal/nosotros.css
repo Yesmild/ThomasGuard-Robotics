@@ -1,0 +1,248 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body {
+    transition: background-image 1s ease;
+
+ transition: background-color 1s ease;
+ background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/nosotros/nosotros-envdd.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ 
+}
+
+
+
+
+img {
+    background-size: cover;
+}
+
+
+
+#cartas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 99vw;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+#miembros {
+    background-color: azure;
+    margin-top: 80px;
+    border-radius: 50px;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+
+} 
+
+
+
+
+
+
+#slide1 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imagenes/yo.jpg');   
+     background-size: cover;
+    border-radius: 50px;
+height: 600px;
+
+}
+
+
+#slide2 {
+
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imagenes/nosotros/imanol.jpg');   
+    background-size: cover;
+   border-radius: 50px;
+height: 600px;
+    
+}
+
+
+.carousel-inner img {
+    height: 500px;
+
+}
+
+#slide {
+    margin-bottom: 50px;
+    display: none;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    margin-top: 50px;
+    
+}
+
+#slider2 {
+    display: none;
+    margin-top: 50px;    
+    margin-bottom: 50px;
+
+}
+
+#slider3 {
+
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imagenes/nosotros/eduardo.jpg');   
+    background-size: cover;
+    border-radius: 50px;
+    height: 600px;
+
+}
+
+
+#slider4 {
+
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imagenes/nosotros/alailah.jpg');   
+    background-size: cover;
+    border-radius: 50px;
+    height: 600px;
+
+
+}
+
+
+#heads {
+    width: 99vw;
+   
+    display: flex;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+flex-wrap: wrap;
+transition: opacity 0.5 ease;
+    }
+
+    #heads h1 {
+
+color: white;
+font-size: 100px;
+margin-top: 143px;
+text-align: center;
+width: 100vw;
+
+
+
+    }
+
+    #heads p {
+        color: white;
+        
+    }
+
+    #heads h2 {
+
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        width: 100vw;
+        height: 200px;
+ 
+        
+        
+            }
+
+            #text {
+color: black;
+                font-size: 40px;
+                font-weight: 600;
+                text-align: center;
+                
+            }
+
+
+            #cerrar {
+                color: aliceblue;
+                cursor: pointer;
+            }
+
+            #boton1, #boton2, #boton3 {
+        justify-content: center;
+                display: flex;
+            }
+
+            #cartas3 {
+                display: flex;
+                background-color: azure; 
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+                
+                padding: 40px;
+                margin-top: 600px;
+            }
+
+            
+            
+
+            #opciones p {
+          
+                display: flex;
+
+            }
+
+
+
+            #razones {
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                visibility: hidden;
+            }
+
+            #mision {
+                width: 50vw;
+                height: 500px;
+                background-color: red;
+            }
+
+            #valores {
+                width: 50vw;
+                height: 500px;
+                background-color: blue;
+
+            }
+
+            #mision, #valores p {
+                padding-top: 200px;
+                color: white;
+                font-size: 100px;
+            }
+
+            
+            #carlos p {
+                color: white;
+            }
+
+#carlos {
+    margin-top: 800px;
+}
+
+            #lluvia {
+                position: relative;
+                width: 100%;
+                background-color: #000; /* Color de fondo del contenedor */
+                overflow: hidden; /* Oculta los elementos que se desborden */
+              }
+              
+              .lluvia-gota {
+                position: absolute;
+                width: 1px; /* Ancho de las gotas */
+                height: 10px; /* Altura de las gotas */
+                background-color: #fff; /* Color de las gotas */
+                animation: caer linear infinite; /* Animación de caída */
+              }
+              
+              @keyframes caer {
+                0% {
+                  transform: translateY(-5000px); /* Posición inicial de las gotas */
+                }
+                100% {
+                  transform: translateY(500px); /* Posición final de las gotas */
+                }
+              }
+              
